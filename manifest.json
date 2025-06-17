@@ -1,0 +1,36 @@
+{
+  "name": "Пузырь с анимацией",
+  "id": "bubble-popup",
+  "version": "1.0.0",
+  "description": "Лопающийся пузырь с текстом или изображением внутри",
+  "author": "Olga Tim",
+  "tags": ["пузырь", "анимация", "мыльный пузырь", "текст", "картинка"],
+  "type": "widget",
+  "editor": {
+    "width": 200,
+    "height": 200
+  },
+  "iframe": {
+    "src": "https://olgitim777.github.io/genially-bubble-widget/bubble/index.html" 
+  },
+  "properties": [
+    {
+      "key": "content",
+      "label": "Содержимое",
+      "type": "html",
+      "default": "<p>Текст</p>"
+    },
+    {
+      "key": "bubbleColor",
+      "label": "Цвет пузыря",
+      "type": "color",
+      "default": "#ffffff"
+    },
+    {
+      "key": "borderColor",
+      "label": "Цвет края",
+      "type": "color",
+      "default": "#87ceeb"
+    }
+  ]
+}
